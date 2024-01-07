@@ -91,6 +91,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section styles */
 .about{
     padding: 130px;
@@ -135,7 +138,26 @@ line-height: 30px
 #what{
     padding: 30px 150px;
 }
+/* skill related styles */
 .skills{
     display: flex;
-    margin: 50px 230px ;
+    /* margin: 50px 230px ; */
 }
+ .skill{
+    padding: 30px;
+    gap: 24px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+} 
+/* resume selection styles */
+.resume-title{
+    color:  #474747);
+    
+    font-size: 30px;
+    
+        font-weight: 700;}
+ .resume{
+    display: flex;
+ }       
+    
