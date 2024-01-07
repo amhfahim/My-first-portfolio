@@ -87,13 +87,32 @@ background-repeat: no-repeat;
 background-position:bottom right;
 }
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 .about{
     padding: 130px;
     border-radius: 10px;
 background: #FFF8F3;
 margin: 130px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.abtinf{
+    text-align: center;
+    margin: 50px;
+}
+.info-dis{
+    color: #474747;
+justify-content: space-around;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
 }
 .section-title{
     color: var(--Dark-01, #181818);
@@ -112,4 +131,11 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px
+}
+#what{
+    padding: 30px 150px;
+}
+.skills{
+    display: flex;
+    margin: 50px 230px ;
 }
