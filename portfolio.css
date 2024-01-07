@@ -1,12 +1,41 @@
 /* nav related styles */
 nav{
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin: 0 200px;
+}
 nav ul {
     display: flex;
     align-items: center;
     
 }
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.diva{
+    max-width: 500px;
+   
+
+}
+.bannerh{
+    margin-bottom: 0px;
+}
+.ban{
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+.para{
+    margin-top: 0px;
+}
+.dp{
+    width: 500px;
+
+}
+
 li{
     margin: 16px;
     padding: 8px;
@@ -49,4 +78,38 @@ padding: 16px 35px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+}
+/* header related styles */
+.h{
+    background-color: #FFF8F3;
+   background-image: url("images/header_bg.png");
+background-repeat: no-repeat;
+background-position:bottom right;
+}
+/* main section styles */
+
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+background: #FFF8F3;
+margin: 130px;
+}
+.section-title{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.secdis{
+    margin: 30px 150px;
+    color: #757575);
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px
 }
